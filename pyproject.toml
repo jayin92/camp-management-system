@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "database-final-project"
+version = "0.1.0"
+description = "The final project of NYCU introduction to database system."
+authors = ["jayin92 <jayin920805@gmail.com>"]
+readme = "README.md"
+packages = [{include = "database_final_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.1.4"
+pillow = "^9.3.0"
+djangorestframework = "^3.14.0"
+markdown = "^3.4.1"
+django-filter = "^22.1"
+psycopg2 = "^2.9.5"
+django-cors-headers = "^3.13.0"
+django-extensions = "^3.2.1"
+chardet = "^5.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
