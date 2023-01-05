@@ -22,6 +22,8 @@ NYCU Intro. to Database Final Project - 營隊報名審核系統
 ```bash
 poetry install
 poetry shell
+python manage.py migrate
+python manage.py runscript load_file
 python manage.py runserver
 ```
 
